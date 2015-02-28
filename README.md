@@ -10,4 +10,9 @@
 
 ### Without Pathogen
 
-TODO
+1. Grab [a zip](https://github.com/bfontaine/vim-gosh/archive/master.zip) of
+   this repo
+2. Move `ftdetect/gosh.vim` into `~/.vim/ftdetect/` and `syntax/gosh.vim` into
+   `~/.vim/syntax/`
+3. ???
+4. [Profit!](http://knowyourmeme.com/memes/profit)
