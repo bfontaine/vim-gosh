@@ -15,8 +15,7 @@ endif
 "=========
 syn cluster goshCommentGroup contains=goshTodo,@Spell
 syn keyword goshTodo contained FIXME TODO XXX
-syn match goshComment contained "#.*$" contains=@goshCommentGroup
-syn match goshQuickComment contained "#.*$"
+syn match goshComment "#.*$" contains=@goshTodo
 
 syn keyword goshStatement alias cd echo exit quit
 
@@ -33,7 +32,6 @@ exec "syn sync minlines=" . sh_minlines . " maxlines=" . sh_maxlines
 " Default Highlighting
 " ====================
 hi def link goshComment      Comment
-hi def link goshQuickComment Comment
 
 hi def link goshStatement    Statement
 hi def link goshTodo         Todo
