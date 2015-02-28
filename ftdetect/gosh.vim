@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.gosh set ft=gosh
+au BufNewFile,BufRead *.gosh,.goshrc set ft=gosh
